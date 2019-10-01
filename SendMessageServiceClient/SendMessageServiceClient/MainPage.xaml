@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="SendMessageServiceClient.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SendMessageServiceClient"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="button" Content="forward" HorizontalAlignment="Left" Margin="133,201,0,0" VerticalAlignment="Top" Click="forward_Click" Height="80" Width="151"/>
+        <Button x:Name="backward" Content="backward" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="467,201,0,0" Height="96" Width="148" Click="backward_Click"/>
+        <Button x:Name="right" Content="right" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="108,470,0,0" Height="89" Width="176" Click="right_Click"/>
+        <Button x:Name="left" Content="left" HorizontalAlignment="Left" Margin="467,470,0,0" VerticalAlignment="Top" Height="100" Width="157" Click="left_Click"/>
+        <Button x:Name="stop" Content="stop" HorizontalAlignment="Left" Margin="1082,201,0,0" VerticalAlignment="Top" Height="151" Width="224" Click="stop_Click"/>
+
+    </Grid>
+</Page>

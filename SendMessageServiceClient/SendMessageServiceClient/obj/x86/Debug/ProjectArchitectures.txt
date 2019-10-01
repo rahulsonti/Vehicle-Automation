@@ -1,0 +1,1 @@
+C:\Users\HP\Desktop\Project\SendMessageServiceClient\SendMessageServiceClient\SendMessageServiceClient.csproj;x86
